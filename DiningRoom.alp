@@ -471,6 +471,36 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1545221251086</Id>
+					<Name><![CDATA[countATM]]></Name>
+					<X>1220</X><Y>1040</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1545221609996</Id>
+					<Name><![CDATA[countCheck]]></Name>
+					<X>1220</X><Y>1020</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 			</Variables>
 			<Connectors>
 				<Connector>
@@ -4832,7 +4862,8 @@ numberwaitersoncheck++;
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.exitcheck=time();
 totalchecktime=totalchecktime+agent.exitcheck-agent.entercheck;
-averagechecktime=totalchecktime/countcheckqueue;
+countCheck++;
+averagechecktime=totalchecktime/countCheck;
 
 
 ]]></Code>
@@ -5285,7 +5316,8 @@ numberwaitersonATM++;
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.exitATM=time();
 totalATMtime=totalATMtime+agent.exitATM-agent.enterATM;
-averageATMtime=totalATMtime/countATMqueue;
+countATM++;
+averageATMtime=totalATMtime/countATM;
 
 
 ]]></Code>
@@ -5646,6 +5678,9 @@ numberwaitersonATM++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.enterATM=time();]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
@@ -5655,6 +5690,13 @@ numberwaitersonATM++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.exitATM=time();
+totalATMtime=totalATMtime+agent.exitATM-agent.enterATM;
+countATM++;
+averageATMtime=totalATMtime/countATM;
+]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -5749,6 +5791,9 @@ numberwaitersonATM++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.enterATM=time();]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
@@ -5758,6 +5803,13 @@ numberwaitersonATM++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.exitATM=time();
+totalATMtime=totalATMtime+agent.exitATM-agent.enterATM;
+countATM++;
+averageATMtime=totalATMtime/countATM;
+]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
