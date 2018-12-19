@@ -14023,54 +14023,6 @@ averagetakinfoodtime=totaltakingfoodtime/counteatingqueue;
 					<ApplyShading>true</ApplyShading>
 				</Figure3D>
 				<Figure3D>
-					<Id>1545164289327</Id>
-					<Name><![CDATA[nurse]]></Name>
-					<X>660</X><Y>-960</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660</X><Y>-960</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[3d/nurse.dae]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[Material__6__Surf]]></Name>
-							<OriginalColor>-13331381</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__5__Surf]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__3__Surf]]></Name>
-							<OriginalColor>-3367672</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__7__Surf]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__4__Surf]]></Name>
-							<OriginalColor>-14409720</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__2__Surf]]></Name>
-							<OriginalColor>-3402489</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__1__Surf]]></Name>
-							<OriginalColor>-3367560</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>10.0</Scale>
-					<Rotation>180.0</Rotation>
-					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
 					<Id>1545164289329</Id>
 					<Name><![CDATA[table_4]]></Name>
 					<X>2125</X><Y>-1335</Y>
@@ -14540,54 +14492,6 @@ averagetakinfoodtime=totaltakingfoodtime/counteatingqueue;
 					<AutoScale>true</AutoScale>
 					<Scale>8.0</Scale>
 					<Rotation>90.0</Rotation>
-					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
-					<Id>1545206554058</Id>
-					<Name><![CDATA[nurse1]]></Name>
-					<X>660</X><Y>-780</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660</X><Y>-780</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[3d/nurse.dae]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[Material__6__Surf]]></Name>
-							<OriginalColor>-13331381</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__5__Surf]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__3__Surf]]></Name>
-							<OriginalColor>-3367672</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__7__Surf]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__4__Surf]]></Name>
-							<OriginalColor>-14409720</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__2__Surf]]></Name>
-							<OriginalColor>-3402489</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[Material__1__Surf]]></Name>
-							<OriginalColor>-3367560</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>10.0</Scale>
-					<Rotation>180.0</Rotation>
 					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
 					<ApplyShading>true</ApplyShading>
 				</Figure3D>
@@ -15525,6 +15429,86 @@ averagetakinfoodtime=totaltakingfoodtime/counteatingqueue;
 					<Scale>10.0</Scale>
 					<Rotation>270.0</Rotation>
 					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+				</Figure3D>
+				<Figure3D>
+					<Id>1545242712666</Id>
+					<Name><![CDATA[officeWorker1]]></Name>
+					<X>650</X><Y>-980</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>650</X><Y>-980</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[3d/officeworker.dae]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>8.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+				</Figure3D>
+				<Figure3D>
+					<Id>1545242717383</Id>
+					<Name><![CDATA[officeWorker2]]></Name>
+					<X>650</X><Y>-790</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>650</X><Y>-790</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[3d/officeworker.dae]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>8.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
 					<ApplyShading>true</ApplyShading>
 				</Figure3D>
 			</Shapes>
